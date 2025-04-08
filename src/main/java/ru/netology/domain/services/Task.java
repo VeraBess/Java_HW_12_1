@@ -5,11 +5,6 @@ import java.util.Objects;
 //РОДИТЕЛЬ
 public class Task {
     protected int id;
-    protected String query;
-
-    public Task(String query) {
-        this.query = query;
-    }
 
     public Task(int id) {
         this.id = id;
@@ -17,10 +12,6 @@ public class Task {
 
     public int getId() {
         return id;
-    }
-
-    public String getQuery() {
-        return query;
     }
 
     /**
